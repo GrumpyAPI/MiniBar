@@ -1,0 +1,36 @@
+﻿<Window x:Class="MiniBar.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MiniBar"
+        mc:Ignorable="d"
+        Title="MiniBar" Height="112" Width="600" Background="{x:Null}" WindowStartupLocation="Manual" AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize" Topmost="True" Loaded="Window_Loaded" Icon="Bar/icons8-pull-down-96.png">
+    <Grid>
+        <Canvas>
+            <Image x:Name="Upper_Panel" Source="Bar/Upper Panel.png" HorizontalAlignment="Left" Height="112" VerticalAlignment="Top" Width="600" Margin="0,0,0,0" Panel.ZIndex="1" MouseLeftButtonDown="Window_Move"/>
+            <!--<Image x:Name="Lower_Panel" Source="Bar/Lower part with panel.png" HorizontalAlignment="Left" Height="98" VerticalAlignment="Top" Width="600" Margin="0,-68,0,0"/>-->
+            <Image x:Name="Lower_Panel" Source="Bar/Lower part with 50 percent transparency panel.png" HorizontalAlignment="Left" Height="98" VerticalAlignment="Top" Width="600" Margin="0,-68,0,0"/>
+            <Image x:Name="Bar_Button" Source="Bar/Button.png" HorizontalAlignment="Left" Height="19" VerticalAlignment="Top" Width="48" Margin="276,12,0,0" MouseLeftButtonDown="Button_Down" MouseLeftButtonUp="Button_Click" MouseEnter="Hover_On" MouseLeave="Hover_Off"/>
+        </Canvas>
+        <Button x:Name="Options" Content="!" Height="10" Width="10" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,2.667,4,0" FontSize="6" FontFamily="Arial" FontWeight="Bold" Background="#FF9B9B9B" Foreground="#FFFFCB00" Click="Left_Click" Grid.Row="1">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+            <Button.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Menu item 1" />
+                    <MenuItem Header="Menu item 2" />
+                    <Separator />
+                    <MenuItem Header="Exit" Click="Exit_App" >
+                        <MenuItem.Icon>
+                            <Image Source="Icons\Exit Icon.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </ContextMenu>
+            </Button.ContextMenu>
+        </Button>
+    </Grid>
+</Window>

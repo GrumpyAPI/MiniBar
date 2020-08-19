@@ -1,0 +1,14 @@
+C:\Users\yulia\source\repos\MiniBar\MiniBar\bin\Debug\MiniBar.exe.config
+C:\Users\yulia\source\repos\MiniBar\MiniBar\bin\Debug\MiniBar.exe
+C:\Users\yulia\source\repos\MiniBar\MiniBar\bin\Debug\MiniBar.pdb
+C:\Users\yulia\source\repos\MiniBar\MiniBar\obj\Debug\MainWindow.g.cs
+C:\Users\yulia\source\repos\MiniBar\MiniBar\obj\Debug\App.g.cs
+C:\Users\yulia\source\repos\MiniBar\MiniBar\obj\Debug\MiniBar_MarkupCompile.cache
+C:\Users\yulia\source\repos\MiniBar\MiniBar\obj\Debug\MiniBar_MarkupCompile.lref
+C:\Users\yulia\source\repos\MiniBar\MiniBar\obj\Debug\MainWindow.baml
+C:\Users\yulia\source\repos\MiniBar\MiniBar\obj\Debug\MiniBar.g.resources
+C:\Users\yulia\source\repos\MiniBar\MiniBar\obj\Debug\MiniBar.Properties.Resources.resources
+C:\Users\yulia\source\repos\MiniBar\MiniBar\obj\Debug\MiniBar.csproj.GenerateResource.cache
+C:\Users\yulia\source\repos\MiniBar\MiniBar\obj\Debug\MiniBar.exe
+C:\Users\yulia\source\repos\MiniBar\MiniBar\obj\Debug\MiniBar.pdb
+C:\Users\yulia\source\repos\MiniBar\MiniBar\obj\Debug\MiniBar.csprojAssemblyReference.cache
